@@ -1,8 +1,0 @@
-__pycache__/
-*.pyc
-.env
-.venv/
-venv/
-attendance.db
-student_images/
-teacher_images/
