@@ -12,4 +12,5 @@ requests==2.32.3
 # `mediapipe.solutions` entirely in favor of the newer Tasks API, so
 # upgrading this pin will break every face-recognition route with
 # `AttributeError: module 'mediapipe' has no attribute 'solutions'`.
+gunicorn==23.0.0
 
