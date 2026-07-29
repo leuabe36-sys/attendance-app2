@@ -22,6 +22,7 @@ Set these in **Vercel → Project → Settings → Environment Variables**:
 
 ## Steps
 
+
 1. `vercel link` (or import the repo in the Vercel dashboard).
 2. Add the environment variables above.
 3. If your Vercel project was created **before June 30, 2026**, also set `VERCEL_SUPPORT_LARGE_FUNCTIONS=1` — this bundle (opencv + mediapipe) is likely to land between 250–500 MB, and that flag opts existing projects into the higher 500 MB–5 GB limit. New projects get this automatically.
