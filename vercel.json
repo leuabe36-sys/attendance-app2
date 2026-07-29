@@ -1,8 +1,9 @@
 {
-  "functions": {
-    "api/app.py": {
-      "env": { "LD_LIBRARY_PATH": "/var/task/api/lib" }
-    }
+  "$schema": "https://openapi.vercel.sh/vercel.json",
+  "env": {
+    "LD_LIBRARY_PATH": "/var/task/api/lib"
   },
-  "rewrites": [{ "source": "/(.*)", "destination": "/api/app" }]
+  "rewrites": [
+    { "source": "/(.*)", "destination": "/api/app" }
+  ]
 }
